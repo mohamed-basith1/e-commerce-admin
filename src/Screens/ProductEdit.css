@@ -1,0 +1,102 @@
+.productedit {
+  display: flex;
+}
+
+.editscreen {
+  box-shadow: 1px 4px 20px -6px rgba(0, 0, 0, 0.45);
+  height: 100%;
+  width: 70%;
+  margin-left: 60px;
+  padding: 25px;
+  margin-top: 65px;
+  border-radius: 10px;
+}
+.editscreen > h2 {
+  background-color: rgb(0, 148, 86);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.contant {
+  display: flex;
+}
+.editform > form {
+  display: flex;
+  flex-direction: column;
+}
+.editimage {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  box-shadow: 1px 4px 20px -6px rgba(0, 0, 0, 0.25);
+}
+
+.editform {
+  margin-left: 90px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.editform > form > button {
+  background-color: rgb(247, 191, 38);
+  outline: none;
+  border: none;
+  height: 30px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.editform > form > button:hover {
+  background-color: rgb(211, 156, 5);
+}
+.input {
+  padding: 10px;
+  box-shadow: 1px 4px 20px -6px rgba(0, 0, 0, 0.25);
+  width: 600px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.input > input {
+  width: 100%;
+  outline: none;
+  font-size: 20px;
+  border: none;
+}
+.imageform {
+  position: absolute;
+  left: 450px;
+  top: 65%;
+}
+.selectimage {
+  width: 200px;
+  height: 30px;
+  background-color: #f05e29;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.selectimage:hover {
+  background-color: #ff4400;
+}
+.uploadbutton {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(248, 58, 58);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.uploadbutton:hover {
+  background-color: rgb(255, 0, 0);
+}
